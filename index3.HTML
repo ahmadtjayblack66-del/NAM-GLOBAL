@@ -1,0 +1,563 @@
+  <!DOCTYPE html>
+  <html lang="en">
+  <head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>NAM GLOBAL | iPhones & Gadgets</title>
+  <link
+  href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css"
+  rel="stylesheet"
+  />
+  <link rel="stylesheet" href="style3.css">
+  </head>
+
+  <body>
+
+  <!-- ================= NAVBAR ================= -->
+
+  <header>
+
+  <nav>
+
+    <div class="logo">
+
+     <img src="WhatsApp Image 2026-09-09 at 7.56.26 PM.jpeg" alt="">        
+
+        <div class="brand">
+            <h2>NAM<span>GLOBAL</span></h2>
+            <p>Home of quality phones, gadgets</p>
+        </div>
+
+    </div>
+
+    <div class="menu-btn" onclick="toggleMenu()">
+        ☰
+    </div>
+
+    <ul id="menu">
+
+        <li>
+            <a href="#home">Home</a>
+        </li>
+
+        <li>
+            <a href="#products">iPhones</a>
+        </li>
+
+        <li>
+            <a href="#why">Why Us</a>
+        </li>
+
+        <li>
+            <a href="#payment">Payment</a>
+        </li>
+
+         <li>
+            <a href="#about">About Us</a>
+        </li>
+
+        <li>
+            <a href="#contact">Contact</a>
+        </li>
+
+    </ul>
+
+  </nav>
+
+  </header>
+
+
+  <!-- ================= HERO ================= -->
+
+  <section class="hero" id="home">
+
+  <div class="hero-content">
+
+    
+
+    <h1>NAM GLOBAL</h1>
+
+    <h2>Premium iPhones & Gadgets</h2>
+
+    <p>
+        Home of quality phones, gadgets and accessories.
+        Get your favourite iPhone at competitive prices.
+    </p>
+
+    <div class="buttons">
+
+        <a href="#products" class="btn primary">
+            Shop iPhones
+        </a>
+
+        <a href="#contact" class="btn secondary">
+            Contact Us
+        </a>
+
+    </div>
+
+  </div>
+
+  </section>
+
+
+  <!-- ================= PRODUCTS ================= -->
+
+  <section class="products-section" id="products">
+
+  <div class="section-title">
+
+    <h2>Our <span>iPhones</span></h2>
+
+    <p>
+        Choose your preferred iPhone and contact us to order.
+    </p>
+
+  </div>
+
+
+  <div class="products">
+
+
+    <!-- PRODUCT 1 -->
+
+    <div class="product">
+
+        <div class="phone">
+            <div class="phone-placeholder">
+                <img src="13.jpg" alt="">
+            </div>
+        </div>
+
+        <h3>iPhone 13</h3>
+
+        <p>
+            128GB • Excellent Condition
+        </p>
+
+        <div class="price">
+            ₦550,000
+        </div>
+
+        <button class="buy-btn"
+                onclick="orderPhone('iPhone 13')">
+            Order Now
+        </button>
+
+    </div>
+
+
+    <!-- PRODUCT 2 -->
+
+    <div class="product">
+
+        <div class="phone">
+            <div class="phone-placeholder">
+                <img src="14.jpg" alt="">
+            </div>
+        </div>
+
+        <h3>iPhone 14</h3>
+
+        <p>
+            128GB • Brand New
+        </p>
+
+        <div class="price">
+            ₦700,000
+        </div>
+
+        <button class="buy-btn"
+                onclick="orderPhone('iPhone 14')">
+            Order Now
+        </button>
+
+    </div>
+
+
+    <!-- PRODUCT 3 -->
+
+    <div class="product">
+
+        <div class="phone">
+            <div class="phone-placeholder">
+                <img src="15.jpg" alt="photo">
+            </div>
+        </div>
+
+        <h3>iPhone 15</h3>
+
+        <p>
+            128GB • Brand New
+        </p>
+
+        <div class="price">
+            ₦850,000
+        </div>
+
+        <button class="buy-btn"
+                onclick="orderPhone('iPhone 15')">
+            Order Now
+        </button>
+
+    </div>
+
+
+    <!-- PRODUCT 4 -->
+
+    <div class="product">
+
+        <div class="phone">
+            <div class="phone-placeholder">
+                <img src= "pro15.jpg" alt="photo">
+            </div>
+        </div>
+
+        <h3>iPhone 15 Pro</h3>
+
+        <p>
+            256GB • Premium Quality
+        </p>
+
+        <div class="price">
+            ₦1,150,000
+        </div>
+
+        <button class="buy-btn"
+                onclick="orderPhone('iPhone 15 Pro')">
+            Order Now
+        </button>
+
+    </div>
+
+
+    <!-- PRODUCT 5 -->
+
+    <div class="product">
+
+        <div class="phone">
+            <div class="phone-placeholder">
+                <img src="16.jpg" alt="photo">
+            </div>
+        </div>
+
+        <h3>iPhone 16</h3>
+
+        <p>
+            128GB • Brand New
+        </p>
+
+        <div class="price">
+            ₦1,050,000
+        </div>
+
+        <button class="buy-btn"
+                onclick="orderPhone('iPhone 16')">
+            Order Now
+        </button>
+
+    </div>
+
+
+    <!-- PRODUCT 6 -->
+
+    <div class="product">
+
+        <div class="phone">
+            <div class="phone-placeholder">
+                <img src="16promax.jpg" alt="">
+            </div>
+        </div>
+
+        <h3>iPhone 16 Pro Max</h3>
+
+        <p>
+            256GB • Premium Quality
+        </p>
+
+        <div class="price">
+            ₦1,550,000
+        </div>
+
+        <button class="buy-btn"
+                onclick="orderPhone('iPhone 16 Pro Max')">
+            Order Now
+        </button>
+
+    </div>
+
+  </div>
+
+  </section>
+
+
+  <!-- ================= WHY NAM GLOBAL ================= -->
+
+  <section class="why" id="why">
+
+  <div class="section-title">
+
+    <h2>Why Choose <span>NAM GLOBAL?</span></h2>
+
+    <p>Quality, trust and excellent customer service.</p>
+
+  </div>
+
+
+  <div class="why-container">
+
+    <div class="why-box">
+
+        <div class="icon">📱</div>
+
+        <h3>Quality Phones</h3>
+
+        <p>
+            We provide quality smartphones and gadgets.
+        </p>
+
+    </div>
+
+
+    <div class="why-box">
+
+        <div class="icon">💰</div>
+
+        <h3>Good Prices</h3>
+
+        <p>
+            Competitive prices for different budgets.
+        </p>
+
+    </div>
+
+
+    <div class="why-box">
+
+        <div class="icon">🔒</div>
+
+        <h3>Trusted</h3>
+
+        <p>
+            We value honesty and customer satisfaction.
+        </p>
+
+    </div>
+
+
+    <div class="why-box">
+
+        <div class="icon">🚚</div>
+
+        <h3>Fast Delivery</h3>
+
+        <p>
+            Convenient delivery options for customers.
+        </p>
+
+    </div>
+
+  </div>
+
+  </section>
+
+
+
+   <section class="why" id="about">
+
+  <div class="section-title">
+
+    <h2>NAM GLOBAL?<span>Organizers</span></h2>
+
+    
+
+  </div>
+
+
+  <div class="why-container">
+
+    <div class="why-box">
+
+
+    <div class="why-box">
+
+        <div class="icon"><img src="WhatsApp Image 2026-09-11 at 6.00.00 PM.jpeg" alt=""></div>
+
+        <h3>THE MANAGER</h3>
+
+
+
+    </div>
+
+
+    <div class="why-box">
+
+        <div class="icon"><img src="WhatsApp Image 2026-09-11 at 6.09.09 PM.jpeg" alt=""></div>
+
+        <h3>THE CUSTOMERS CARE</h3>
+
+
+
+    </div>
+
+
+    <div class="why-box">
+
+        <div class="icon">
+            <img src="WhatsApp Image 2026-09-11 at 6.00.02 PM.jpeg" alt="">
+        </div>
+
+        <h3>THE NAM GLOBAL CEO</h3>
+
+ 
+
+    </div>
+        <div class="icon">
+            <img src="WhatsApp Image 2026-09-11 at 5.57.50 PM.jpeg" alt="">
+        </div>
+
+        <h3>SECTARY  MANAGER</h3>
+
+ 
+
+    </div>
+
+  </div>
+
+  </section>
+
+  <!-- ================= PAYMENT ================= -->
+
+  <section class="payment" id="payment">
+
+  <div class="payment-box">
+
+    <h2>Make Your Payment</h2>
+
+    <p>
+        After confirming your order, use the account below
+        for payment.
+    </p>
+
+
+    <div class="account">
+
+        <p><strong>NAM GLOBAL ENTERPRISE</strong></p>
+
+        <p>Account Number</p>
+
+        <div class="account-number" id="accountNumber">
+            7044050227
+            MONIEPOINT
+        </div>
+         
+
+        <button class="copy-btn"
+                onclick="copyAccount()">
+            Copy Account Number
+        </button>
+
+    </div>
+
+    <p>
+        Please confirm payment details with NAM GLOBAL
+        before making payment.
+    </p>
+
+  </div>
+
+  </section>
+
+
+  <!-- ================= CONTACT ================= -->
+
+  <section class="contact" id="contact">
+
+  <h2>
+    Ready to Buy from <span>NAM GLOBAL?</span>
+  </h2>
+
+  <p>
+    Contact us today to check availability and current prices.
+  </p>
+
+  <a href="https://wa.me/2347044050227"
+    class="whatsapp"
+    target="_blank">
+
+    💬 Chat With Us on WhatsApp
+
+  </a>
+
+  </section>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer>
+
+
+
+  <h3>NAM GLOBAL</h3>
+
+  <p>
+    Home of quality phones, gadgets
+  </p>
+
+  <p>
+    © 2026 NAM GLOBAL. All Rights Reserved.
+  </p>
+
+  </footer>
+
+
+  <!-- ================= JAVASCRIPT ================= -->
+
+  <script>
+
+  // Mobile menu
+
+  function toggleMenu() {
+
+    const menu = document.getElementById("menu");
+
+    menu.classList.toggle("active");
+
+  }
+
+
+  // Order function
+
+  function orderPhone(phone) {
+
+    const message =
+    "Hello NAM GLOBAL, I want to order " + phone +
+    ". Please send me the current price and availability.";
+
+    const whatsapp =
+    "https://wa.me/2348106417282?text="
+    + encodeURIComponent(message);
+
+    window.open(whatsapp, "_blank");
+
+  }
+
+
+  // Copy account number
+
+  function copyAccount() {
+
+    const account =
+    document.getElementById("accountNumber").innerText;
+
+    navigator.clipboard.writeText(account);
+
+    alert("Account number copied: " + account);
+
+  }
+
+  </script>
+
+  </body>
+  </html>
